@@ -110,7 +110,7 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
         margin: 0;
         width: 100%;
         position: absolute;
-        top: -100px; 
+        top: 10px; 
         opacity: 1;
         transition: all 0.5s ease;
         z-index: -1;
