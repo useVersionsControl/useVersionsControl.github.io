@@ -92,7 +92,7 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
     width: 50%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
     .navbar {
         margin-right: -20px;
     }
