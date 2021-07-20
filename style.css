@@ -110,7 +110,6 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
         opacity: 1;
         transition: all 0.5s ease;
         z-index: -1;
-        background: #131313;
     }
 
     .navbar__menu.active {
@@ -132,7 +131,6 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background: #fff;
     }
 
     .navbar__item {
@@ -149,7 +147,7 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
     #mobile-menu {
         position: absolute;
         top: 20%;
-        right: 5%;
+        left: 50%;
         transform: translate(5%, 20%);
     }
 
