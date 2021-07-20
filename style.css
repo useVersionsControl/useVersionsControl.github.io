@@ -22,7 +22,6 @@ body {
 
 
 .navbar {
-    background: #131313;
     background: #8e9eab;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #636768, #262a2e);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -35,12 +34,12 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
     position: sticky;
     top: 0;
     z-index: 999;
+    
 }
 
 .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -64,7 +63,7 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
 }
 
 .navbar__menu {
-    display: block;
+    display: flex;
     align-items: center;
     list-style: none;
 }
@@ -93,7 +92,11 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
     width: 50%;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 500px) {
+    .navbar {
+        margin-right: -20px;
+    }
+
     .navbar__container {
         display: flex;
         justify-content: space-between;
@@ -105,12 +108,12 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
     }
 
     .navbar__menu {
-        display: grid;
+        display: block;
         grid-template-columns: auto;
         margin: 0;
         width: 100%;
         position: absolute;
-        top: 10px; 
+        top: -100px; 
         opacity: 1;
         transition: all 0.5s ease;
         z-index: -1;
@@ -159,7 +162,7 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
         display: block;
         cursor: pointer;
     }
-
+    
     .dropdown {
         margin-left: 250px;
         margin-block: 12px;
