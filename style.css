@@ -149,7 +149,7 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
 
     #mobile-menu {
         position: fixed;
-        left: 45%;
+        right: 5%;
     }
 
     .navbar__toggle  .bar {
