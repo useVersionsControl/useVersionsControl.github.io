@@ -95,7 +95,7 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
         justify-content: space-between;
         height: 80px;
         z-index: 1;
-        width: 100%;
+        width: 90%;
         max-width: 1300px;
         padding: 0;
     }
