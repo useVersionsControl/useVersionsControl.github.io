@@ -162,4 +162,5 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
 
     .dropdown {
         margin-left: 250px;
+        margin-block: 12px;
     }
