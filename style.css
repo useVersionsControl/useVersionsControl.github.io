@@ -64,7 +64,7 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
 }
 
 .navbar__menu {
-    display: flex;
+    display: block;
     align-items: center;
     list-style: none;
 }
