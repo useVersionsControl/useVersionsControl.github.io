@@ -94,10 +94,6 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
 
 @media screen and (max-width: 900px) {
     
-.container, .container-sm {
-    max-width: 90%;
-}
-    
     .navbar__container {
         display: flex;
         justify-content: space-between;
@@ -164,4 +160,9 @@ background: linear-gradient(to left, #636768, #262a2e); /* W3C, IE 10+/ Edge, Fi
     .dropdown {
         margin-left: 250px;
         margin-block: 12px;
+    }
+
+ @media (min-width: 576px) {
+        .container {
+            max-width: 90%;
     }
